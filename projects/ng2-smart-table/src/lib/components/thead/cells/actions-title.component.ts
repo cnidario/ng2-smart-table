@@ -5,7 +5,7 @@ import { Grid } from '../../../lib/grid';
 @Component({
   selector: '[ng2-st-actions-title]',
   template: `
-    <div class="ng2-smart-title">{{ actionsColumnTitle }}</div>
+    <div class="ng2-smart-title" [innerHTML]="actionsColumnTitle"></div>
   `,
 })
 export class ActionsTitleComponent implements AfterViewInit, OnChanges {
