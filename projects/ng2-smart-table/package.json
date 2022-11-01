@@ -1,8 +1,8 @@
 {
-  "name": "ng2-smart-table",
+  "name": "@hugu/ng2-smart-table",
   "version": "1.7.2",
   "description": "Angular Smart Table",
-  "author": "akveo",
+  "author": "hugu",
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.10",
